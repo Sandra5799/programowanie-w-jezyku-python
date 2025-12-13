@@ -62,7 +62,6 @@ class Order:
         return f"ZAMÓWIENIE ({self.order_date})\n{self.student}\nObsługujący: {self.employee}\nKsiążki:\n{books_str}"
 
 
-
 library1 = Library("Warszawa", "Marszałkowska 10", "00-001", "8:00-18:00", "123-456-789")
 library2 = Library("Kraków", "Floriańska 5", "30-002", "9:00-17:00", "987-654-321")
 
